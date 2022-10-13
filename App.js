@@ -15,6 +15,7 @@ import { FocusHistory } from './src/features/FocusHistory';
 
 
 export default function App() {
+  console.log("test git")
   const [currentSubject, setCurrentSubject] = useState();
   const [history, setHistory] = useState([]);
   return (
